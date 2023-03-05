@@ -1,47 +1,36 @@
-.header {
-   padding: 80px;
-   text-align: center;
-   /* background: black; */
-   color:white;
-}
-
-.header h1 {
-   font-size: 40px;
-}
-
-.sidebar {
-   margin: 0;
-   padding: 0;
-   width: 200px;
+nav {
    background-color: black;
-   position: fixed;
-   height: 100%;
-   overflow: auto;
+   overflow: hidden;
 }
 
-.sidebar a {
-   display: block;
-   color: white;
-   padding: 16px;
+nav a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
    text-decoration: none;
+   font-size: 17px
 }
 
-.sidebar a.active {
-   background-color: #04aa6d;
+nav a:hover {
+   background-color: #ddd;
    color: black;
 }
 
-.sidebar a:hover:not(.active) {
-   background-color: #555;
-   color:white;
+nav a.active {
+   background-color: #04AA6d;
+   color: white;
 }
 
-div.content {
-   margin-left: 200px;
-   padding: 1px 16px;
-   height: 1000px;
+header {
+   padding: 80px;
+   text-align: center;
+   color: white;
 }
 
+header h1 {
+   font-size: 40px;
+}
 
 .about {
    color: white;
@@ -50,31 +39,17 @@ div.content {
    margin-left: 20px;
 }
 
-
-.portfolio {
-   background-color: #1b1c1b;
+.projects {
    margin-left: 20px;
+   padding: 20px;
 }
 
-.portfolio h1 {
+.projects h1 {
    color: white;
-   text-align: center;
+   text-align: left;
    padding-top: 20px;
 }
 
-@media screen and (max-width: 700px) {
-   .sidebar {
-      width: 100%;
-      height: auto;
-      position: relative;
-   }
-   .sidebar a {float: left;}
-   div.content {margin-left: 0;}
-}
-
-@media screen and (max-width: 400px) {
-   .sidebar a {
-      text-align: center;
-      float: none;
-   }
+.project p {
+   color: white;
 }
