@@ -1,6 +1,14 @@
+html * {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+   background-color: black;
+}
 nav {
    background-color: black;
    overflow: hidden;
+   position: fixed;
 }
 
 nav a {
@@ -39,17 +47,25 @@ header h1 {
    margin-left: 20px;
 }
 
+.about p {
+   line-height: 150%;
+}
+
+
 .projects {
    margin-left: 20px;
    padding: 20px;
 }
 
 .projects h1 {
+   font-size: 40px;
    color: white;
-   text-align: left;
+   text-align: center;
    padding-top: 20px;
 }
 
-.project p {
+.project h1 {
+   font-size: 30px;
    color: white;
+   text-align: left;
 }
