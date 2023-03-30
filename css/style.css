@@ -159,6 +159,14 @@ header h1 {
    display: none;
 }
 
+.mySlides3 {
+   display: none;
+}
+
+.mySlides4 {
+   display: none;
+}
+
 .prev,
 .next {
    cursor: pointer;
