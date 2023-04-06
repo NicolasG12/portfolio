@@ -8,7 +8,7 @@ body {
 }
 
 /* navigation bar */
-nav {
+/* nav {
    background-color: rbga(0, 0, 0, 0);
    overflow: hidden;
    position: fixed;
@@ -23,7 +23,7 @@ nav a {
    padding: 14px 16px;
    text-decoration: none;
    font-size: 17px
-}
+} */
 
 nav a:hover {
    background-color: #5ef3ec;
@@ -34,7 +34,7 @@ nav a.active {
    font-weight: bold;
 }
 
-/* nav {
+nav {
    height: 100%;
    width: 10%;
    position: fixed;
@@ -49,10 +49,10 @@ nav a.active {
 nav a {
    padding: 8px 8px 8px 32px;
    text-decoration: none;
-   font-size: 25px;
+   font-size: 20px;
    color: #818181;
    display: block;
-} */
+}
 
 header {
    padding: 80px;
@@ -121,10 +121,10 @@ header h1 {
 }
 
 .side {
-   flex: 30%;
+   flex: 15%;
    background-color: black;
    padding: 20px;
-   margin-left: 5%;
+   margin-left: 10%;
 }
 
 .side h1 {
@@ -133,10 +133,10 @@ header h1 {
 }
 
 .main {
-   flex: 50%;
+   flex: 45%;
    background-color: black;
    padding: 20px;
-   margin-left: 5%;
+   margin-left: 2%;
 }
 
 .main p {
