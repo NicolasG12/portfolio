@@ -8,10 +8,10 @@ body {
 }
 
 /* navigation bar */
-/* nav {
+nav {
    background-color: rbga(0, 0, 0, 0);
    overflow: hidden;
-   position: fixed;
+   /* position: fixed; */
    margin-left: 5%;
    z-index: 1;
 }
@@ -23,7 +23,7 @@ nav a {
    padding: 14px 16px;
    text-decoration: none;
    font-size: 17px
-} */
+}
 
 nav a:hover {
    background-color: #5ef3ec;
@@ -34,7 +34,7 @@ nav a.active {
    font-weight: bold;
 }
 
-nav {
+/* nav {
    height: 100%;
    width: 10%;
    position: fixed;
@@ -52,7 +52,7 @@ nav a {
    font-size: 20px;
    color: #818181;
    display: block;
-}
+} */
 
 header {
    padding: 80px;
@@ -121,10 +121,10 @@ header h1 {
 }
 
 .side {
-   flex: 15%;
+   flex: 30%;
    background-color: black;
    padding: 20px;
-   margin-left: 10%;
+   margin-left: 5%;
 }
 
 .side h1 {
@@ -133,7 +133,7 @@ header h1 {
 }
 
 .main {
-   flex: 45%;
+   flex: 50%;
    background-color: black;
    padding: 20px;
    margin-left: 2%;
@@ -151,20 +151,15 @@ header h1 {
    margin: auto;
 }
 
-.mySlides1 {
+.mySlides1, .mySlides2, .mySlides3, .mySlides4 {
    display: none;
 }
 
-.mySlides2 {
-   display: none;
-}
-
-.mySlides3 {
-   display: none;
-}
-
-.mySlides4 {
-   display: none;
+.mySlides1 img,
+.mySlides2 img,
+.mySlides3 img,
+.mySlides4 img {
+   width: 100%;
 }
 
 .prev,
