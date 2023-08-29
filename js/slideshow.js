@@ -1,5 +1,5 @@
-let slideIndex = [1, 1, 1, 1];
-let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"];
+let slideIndex = [1, 1, 1, 1, 1];
+let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5"];
 for(const i in slideId) {
    showSlides(1, i);
 }
